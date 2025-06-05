@@ -1,6 +1,9 @@
 # Deployment of ML Model with Apache Airflow DAG Pipeline, Docker, Kubernetes & Streamlit UI
+Welcome to this beginner-friendly tutorial where we dive into the world of MLOps by building a complete Machine Learning pipeline! In this video, we walk you through creating an Apache Airflow pipeline to load, train, and evaluate a ML model, save it, and make predictions. Then, we deploy the model with a sleek Streamlit UI, containerize it with Docker, and scale it with Kubernetes. Perfect for anyone starting their MLOps journey! 🎓
 
-YouTube Link: 
+
+YouTube Link: https://youtu.be/SrvhSMeMsio?si=WJcLwpapJsCMQSNJ
+
 
 ## Requirements
 1. Apache Airflow 
