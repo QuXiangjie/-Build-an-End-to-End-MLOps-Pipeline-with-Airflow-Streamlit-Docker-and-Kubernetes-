@@ -1,4 +1,10 @@
+apache-airflow==2.9.0
+apache-airflow-providers-fab==1.1.0
+flask
+pandas
+scikit-learn
 streamlit
 joblib
-scikit-learn==1.6.1
-pandas
+mysql-connector-python
+python-dotenv
+

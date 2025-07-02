@@ -3,7 +3,9 @@ import joblib
 import pandas as pd
 
 # Load the model
-MODEL_PATH = "/app/models/iris_logistic_model.pkl"
+
+MODEL_PATH = "/app/models/iris_logistic_model.pkl" # This is for production use
+#MODEL_PATH = "iris_logistic_model.pkl"  # Adjust path as necessary, this is for local testing
 model = joblib.load(MODEL_PATH)
 class_names = ['Setosa', 'Versicolor', 'Virginica']
 

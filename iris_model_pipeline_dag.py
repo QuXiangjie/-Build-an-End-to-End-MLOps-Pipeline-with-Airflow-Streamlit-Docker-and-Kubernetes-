@@ -1,5 +1,6 @@
 from airflow import DAG
-from airflow.providers.standard.operators.python import PythonOperator
+from airflow.operators.python import PythonOperator
+
 from datetime import datetime
 from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
