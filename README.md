@@ -57,8 +57,10 @@ ls -l ~/airflow
 
 ### Create an Admin User for Airflow Web UI
 1. Replace "auth_manager = airflow.api_fastapi.auth.managers.simple.simple_auth_manager.SimpleAuthManager" in airflow.cfg file with "auth_manager=airflow.providers.fab.auth_manager.fab_auth_manager.FabAuthManager".
+
 auth_manager=airflow.providers.fab.auth_manager.fab_auth_manager.FabAuthManager
 fab_auth_manager_users=admin:admin 
+
 3. Or you can comment the earlier variable.
 
 ```sh
